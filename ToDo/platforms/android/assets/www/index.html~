@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet">
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" >
+            <div data-role="header" data-position="fixed">
+                <h1>Checklist</h1>
+            </div>
+            <div data-role="content">
+                <fieldset data-role="controlgroup">
+                    <legend></legend>
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">Checkbox</label>
+                    <input type="checkbox" id="checkbox2">
+                    <label for="checkbox2">Checkbox</label>
+                    <input type="checkbox" id="checkbox3">
+                    <label for="checkbox3">Checkbox</label>
+                </fieldset>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-icon="check">Checklist</a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-icon="star">Progress</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+	<div data-role="page" id="page2">
+            <div data-role="header" data-position="fixed">
+                <h1>Progress</h1>
+            </div>
+            <div data-role="content">
+                <fieldset data-role="controlgroup">
+                    <legend></legend>
+                </fieldset>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-icon="check">Checklist</a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-icon="star">Progress</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
